@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 export default function CharacterCard(props) {
+
     const [active, setActive] = useState(false);
     const activate = () => {
         if(!active){
