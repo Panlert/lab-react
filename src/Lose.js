@@ -1,4 +1,4 @@
-/*import React, { Component } from 'react';
+import React, { Component } from 'react';
 
     class Lose extends Component{
         render(){
@@ -10,5 +10,5 @@
             )
         }
     }
-    export default Lose;*/
+    export default Lose;
 
