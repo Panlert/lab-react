@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import _, { attempt, set } from 'lodash';
 import CharacterCard from './CharacterCard';
-/*import Lose from './Lose';
-import Win from './Win';*/
+import Lose from './Lose';
+import Win from './Win';
 
 const prepareStateFromWord = (given_word) => {
     let word = given_word.toUpperCase()
@@ -17,7 +17,7 @@ const prepareStateFromWord = (given_word) => {
     }
 }
 
-//const maxAttempt = 3;
+const maxAttempt = 3;
 
 export default function WordCard(props){
 
@@ -43,7 +43,7 @@ export default function WordCard(props){
         }
     }
 
-   /* if(state.attempt>maxAttempt){
+    if(state.attempt>maxAttempt){
         return (
             <Lose></Lose>
         )
@@ -53,7 +53,7 @@ export default function WordCard(props){
             <Win></Win>
         )
     }
-    else{*/
+    else{
         return (
             <div>
                 {
@@ -63,6 +63,6 @@ export default function WordCard(props){
                 }
             </div>
         )
-    //}
+    }
     
 }
