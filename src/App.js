@@ -3,9 +3,6 @@ import WordCard from './WordCard';
 import './App.css';
 
 
-/*const word = "Hello"
-const word2 = "World"
-var comp = true;*/
 
 function App() {
 
@@ -25,7 +22,6 @@ function App() {
   }
 
   return (
-    <div><WordCard value={word1}/></div>
     <div>
         <WordCard value={word1}/>
         <WordCard value={word2}/>
